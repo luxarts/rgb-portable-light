@@ -1,9 +1,10 @@
 #include <Arduino.h>
+#include "Matrix.h"
 
 void setup() {
-  // put your setup code here, to run once:
+  Matrix matrix;
+  matrix.SetColor(0,0,0);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 }
